@@ -1,7 +1,9 @@
-public class Square extends Shapes{
-  private int z;
-  public Square(){
+package com.example.cmput301lab4demo;
 
-    super();
+public class Square extends Shape{
+  private int z;
+  public Square(int x, int y, int z, String color){
+
+    super(x, y, z, color);
   }
 }
